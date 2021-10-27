@@ -34,7 +34,7 @@ class EmpleadoController extends Controller
             'msg' => 'empleado Registrado Correctamente'
         ], 200);*/
         return (new EmpleadoResource(Empleado::create($request->all())))
-                    ->additional(['msg' => 'Empleado Creado Correctamente']);
+                    ->additional(['msg' => 'Empleado creado Correctamente']);
     }
 
     /**
@@ -68,7 +68,7 @@ class EmpleadoController extends Controller
             'mensaje' => 'empleado actualizado correctamente'
         ], 200);*/
         return (new EmpleadoResource($empleado))
-                    ->additional(['msg' => 'Empleado Actualizado Correctamente']);
+                    ->additional(['msg' => 'Empleado actualizado Correctamente']);
     }
 
     /**
@@ -85,6 +85,6 @@ class EmpleadoController extends Controller
             'mensaje' => 'empleado eliminado correctamente'
         ], 200);*/
         return (new EmpleadoResource($empleado))
-                    ->additional(['msg' => 'Empleado Eliminado Correctamente']);
+                    ->additional(['msg' => 'Empleado eliminado Correctamente']);
     }
 }
