@@ -19,7 +19,7 @@ class CreateEmpleadosTable extends Migration
             $table->string('apellidos');
             $table->string('edad');
             $table->string('sexo');
-            $table->string('telefono',20);
+            $table->string('telefono',9);
             $table->string('correo');
             $table->string('direccion');
             $table->timestamps();

@@ -14,7 +14,7 @@ class Empleado extends Model
     	'apellidos',
     	'edad',
     	'sexo',
-    	'telefono',
+    	'telefonno',
     	'correo',
     	'direccion'
     ];
